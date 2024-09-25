@@ -1,0 +1,60 @@
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://images.pexels.com/photos/3316918/pexels-photo-3316918.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    filter: brightness(0.65);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.home-div{
+    position: relative;
+    top: 22%;
+    left: 12%;
+    max-width: 40%;
+    padding: 1rem 3.3rem;
+}
+
+.home-div h1{
+    font-size: 67px;
+    padding-bottom:1rem;
+}
+
+.heading span{
+    color: rgb(216, 39, 39);
+}
+
+.home-div p{
+    font-size: 21px;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    padding-bottom: 1.3rem;
+    text-align: justify;
+}
+
+.Home-Buttons{
+    display: flex;
+    gap: 3rem;
+}
+
+.Home-Buttons button{
+    padding: 15px 42px;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 0.1mm;
+    margin-top: 1.5rem;
+}
+
+.search{
+    background-color: #e54646;
+    color: aliceblue;
+}
+
+.know{
+    background-color: #fff;
+    color: #e54646;
+}

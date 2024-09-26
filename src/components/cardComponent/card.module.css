@@ -1,0 +1,40 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 83%;
+    margin: auto;
+  }
+  
+.text {
+    background-color: #efefef;
+    padding: 1.7rem ;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    line-height: 7.8mm;
+    margin-bottom: 1rem;
+    text-align: justify;
+    color: rgb(48, 48, 48);
+  }
+
+.card-logo{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem; 
+}
+
+.card-logo img{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+}
+
+.seo{
+    font-size: 18px;
+    padding: 0.6rem 0rem;
+}
+
+.seoName{
+    font-size: 19px;
+    
+}
